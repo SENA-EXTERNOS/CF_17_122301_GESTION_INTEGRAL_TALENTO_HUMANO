@@ -1,15 +1,61 @@
 .banner-principal-decorativo
-  &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+  &-6
+    animation: float2 1.6s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 60%
+    margin-left: -8%
+    display: none
+  &-5
+    animation: float2 1.5s ease-in-out infinite alternate
+    position: absolute
+    top: 60%
+    margin-left: -8%
+  &-4
+    animation: float2 1.4s ease-in-out infinite alternate
+    position: absolute
+    top: 60%
+    margin-left: -8%
+  &-3
+    animation: float2 1.3s ease-in-out infinite alternate
+    position: absolute
+    top: 60%
+    margin-left: -8%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float2 1.2s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 60%
+    margin-left: -8%
+  &-1
+    animation: float2 1s ease-in-out infinite alternate
+    position: absolute
+    top: 60%
+    margin-left: -8%
+  &-7
+    animation: float1 1.5s ease-in-out infinite alternate
+    position: realtive
+    width: 20%
+    top: 35%
+    right: 85%   
+  &-8
+    animation: float1 2s ease-in-out infinite alternate
+    position: relative
+    width: 20%
+    top: 14%
+    right: 72%
+  &-9
+    animation: float1 1.5s ease-in-out infinite alternate
+    position: relative
+    width: 20%
+    top: 20%
+    right: 26%
 
+.banner-principal__img 
+  width: 33%
+  z-index: 1
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/banner-interno.png") !important
+  bottom: -130px
 
 @keyframes float1
   0%
@@ -17,3 +63,282 @@
 
   100%
     transform: translateY(0px)
+
+@keyframes float2
+  0%
+    opacity: 1
+
+  20%
+    opacity: 1
+
+  100%
+    opacity: 0   
+
+@keyframes float1
+  0%
+    transform: translateY(20px)
+
+  100%
+    transform: translateY(0px)
+
+@keyframes visual 
+	0% 
+		transform: scale3d(1, 1, 1);
+
+	30% 
+		transform: scale3d(1.25, 0.75, 1);
+
+	40% 
+		transform: scale3d(0.75, 1.25, 1);
+
+	50% 
+		transform: scale3d(1.15, 0.85, 1);
+
+	65% 
+		transform: scale3d(0.95, 1.05, 1);
+
+	75% 
+		transform: scale3d(1.05, 0.95, 1);
+
+	100% 
+		transform: scale3d(1, 1, 1);
+
+@keyframes visual2 
+	0% 
+		opacity: 0;
+		transform: rotate(-540deg) scale(0)
+		transform-origin: 50% 0;
+
+	100% 
+		opacity: 1;
+		transform: rotate(0) scale(1)
+		transform-origin: 50% 0
+
+//animacion flotante------------------------------------  
+.animacion-flotante
+  animation: float1 3s ease-in-out infinite alternate
+  position: relative
+  top: 0rem
+  right: 0%
+  width: 100%
+//-------------------------------------------------- 
+
+//background para temas  
+.bkg-intro
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: 0
+    width: calc( 100% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/bkg-introduccion.svg')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top  
+
+.bkg-t1
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: 0
+    width: calc( 100% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/tema1/t1-bkg.svg')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top   
+
+.bkg-t2
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: 0
+    width: calc( 100% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/tema2/t2-bkg.svg')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top
+
+.bkg-t3
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: 0
+    width: calc( 100% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/tema3/t3-bkg.svg')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top          
+
+.bf-t1
+  background-image: url(../assets/curso/temas/tema1/t1-bkg-inferior.svg)
+  background-repeat: no-repeat
+  background-size: contain
+  background-position: bottom 
+
+.bf-t2
+  background-image: url(../assets/curso/temas/tema2/t2-bkg-inferior.svg)
+  background-repeat: no-repeat
+  background-size: contain
+  background-position: bottom    
+
+.bf-t3
+  background-image: url(../assets/curso/temas/tema3/t3-bkg-inferior.svg)
+  background-repeat: no-repeat
+  background-size: contain
+  background-position: bottom   
+//------------------------------------------------------------               
+
+//custom para cajones de colores------------------------- 
+.cajon.color-1
+    background-color: #e1d7f2
+.cajon.color-1:before
+    background-color: #6836bf  
+.cajon.color-2
+  background-color: #fef7dc
+.cajon.color-2:before
+    background-color: #f7ca18
+    
+//---------------------------------------------------------       
+
+//custom tarjeta avatar-----------------  
+.tarjeta-avatar
+  width: 100%
+  height: 95%
+  > img
+    width: 35%
+    top: 20px
+  @media ( max-width: 500px )
+    width: 100% 
+    height: 100%
+    * p
+      margin-top: 60px
+      margin-bottom: 0px
+      
+.tarjeta--amarilla-1
+  background-color: #fef7dc
+
+.tarjeta
+  width: 100%
+//------------------------------------   
+
+//color de fondo TabsA -----------
+.tabs-a__tab
+  background-color: #e8e8e8;
+.colorTab
+  background-color: #fef7dc
+.tabs-a__content-item
+  margin-left: 120px;
+  width: 400px;
+  @media ( max-width: 500px )
+    margin-left: 0
+    width: 310px
+    margin-bottom: 20px    
+.tabs-a__tab
+  width: 180%
+  @media ( max-width: 500px )
+    width: 100%
+    
+//------------------------------  
+
+//negrilla para titulos de TabsC Activos-----
+.tabs-c__tab--active
+  font-weight: bold
+  border-bottom: 4px solid !important
+//--------------------------------------------   
+
+//custom para cajon punto caliente tema 6------------
+.estilo-cajon
+  background-color: #F6F6F6
+  border-left: 35px solid #7FC733 !important
+
+.img-infografica.color-acento-botones .img-infografica__item__numero
+  color: #000000
+  font-size: x-large
+//---------------------------------------------------  
+
+//custom imagen bloque-texto-g
+.bloque-texto-g__img
+  width: 53%
+  @media screen and ( max-width: 500px )
+    width: 100%
+//------------------  
+
+//fondo degradado-----------------------------------  
+.color-degrade
+  background: linear-gradient(263deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 72%, rgba(247,202,46,1) 87%, rgba(247,202,46,1) 88%, rgba(247,202,46,1) 90%, rgba(247,202,46,1) 92%, rgba(247,202,46,1) 94%, rgba(247,202,46,1) 96%, rgba(247,202,46,1) 98%, rgba(247,202,46,1) 100%); 
+  border-radius: 5px 
+  -webkit-backdrop-filter: blur(1px)
+  backdrop-filter: blur(1px)
+//-------------------------------------------------- 
+
+///// Custom acordeon A tipo A -------------------------------------- 
+.tarjeta.acordeonA
+  background-color: #f7f4ff 
+
+.acordion__accion__btn--a
+  background-color: #e8e1f6 !important
+
+.acordion__activo
+  background-color: #fef7dc  !important
+//--------------------------------------------------------------------    
+
+//backgorund carrusel de tarjetas
+.carrusel
+  background-color: #F7F4FF
+  border-radius: 30px !important
+  width: 275px
+  height: 340px
+  @media screen and ( max-width: 500px )
+    width: 260px
+    height: 325px
+  
+//--------------------------------------  
+
+//colores para viñetas------------------------------------------------
+.vineta-verde
+  color: #7FC733
+.vineta-morada
+  color: #6836BF  
+//--------------------------------------------------------------------
+
+//custom bloque-text-b: i--------------
+.bloque-texto-b i:first-of-type
+    color: #7FC733
+.bloque-texto-b i:last-of-type
+    color: #7FC733  
+
+//alineación de texto
+.alineacion
+  margin-left: 80%
+  @media screen and ( max-width: 500px )
+     margin-left: 39%
+//-------------------------------------  
+
+//colores tabla tema 1
+.columna1
+  background-color: #6836BF
+.columna2
+  background-color: #D9CCEF 
+.columna3
+  background-color: #FEF7DC  
+.columna4
+  background-color: #EBF6DF   
