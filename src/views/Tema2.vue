@@ -18,13 +18,13 @@
             p La evaluación permite, al área encargada, identificar la pertinencia y eficacia del programa de inducción, manejo del contenido, acepta identificar si el contenido brindado cumple con las exigencias del cargo, si la información es pertinente para las necesidades y si son de fácil comprensión; en cuanto a las actividades, evaluar si las actividades son entendidas por el nuevo colaborador, si abarca todo el contenido para el que fue diseñado y si cumple con los objetivos de enseñanza por el que fue realizada, y evaluar las competencias adquiridas por los nuevos empleados, en donde se verifica y mide si el conocimiento fue adquirido o modificado, si la información brindada fue comprendida.     
 
       .row.justify-content-center.mt-5
-        .col-lg-2(data-aos="flip-left").mb-3
+        .col-lg-2(data-aos="flip-left").mb-5
           img(src='@/assets/curso/temas/tema2/t2-2.svg', alt='Texto que describa la imagen').animacion-flotante
         .col-lg-10
           p Posterior a esta evaluación, el área de Recursos humanos puede identificar las falencias encontradas. Como la evaluación es diseñada para cada uno de los elementos que la componen, el análisis puede identificar los aspectos en los que se requiere realizar acciones como mejoras dentro del programa o actividades propuestas y, en el caso de encontrar falencias en los nuevos integrantes de la organización, replantear reinducciones o nuevas capacitaciones que permitan fortalecer los conocimientos o las habilidades que se requieran. 
 
 
-    .row.justify-content-center.mt-5
+    .row.justify-content-center.mt-3
       p Como la evaluación debe realizarse durante todas las etapas de un proceso, para obtener mayor información y que sea más específica, se plantean tres tipos de enfoques para tener en cuenta:
       .col-lg-8
         TabsA.color-acento-contenido

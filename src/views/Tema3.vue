@@ -10,13 +10,13 @@
 
     .row.justify-content-around.align-items-center.bkg-t3
       .row.justify-content-center
-        .col-lg-2(data-aos="flip-left").mb-3
+        .col-lg-2(data-aos="flip-left").mb-5
           img(src='@/assets/curso/temas/tema3/t3-1.svg', alt='Texto que describa la imagen').animacion-flotante
         .col-lg-10
           p Por otra parte, los indicadores de gestión, permiten medir la eficacia y avances de los programas o procesos implementados, los cuales pueden aplicarse en diferentes momentos de su desarrollo; por este motivo deben ser medibles o cuantificables.
           p Al momento de concluir una tarea, se verifica su efectividad, donde se evidencian las posibles consecuencias que se puedan generar.
 
-      .row.justify-content-center.mt-5
+      .row.justify-content-center.mt-3
         p Los indicadores pueden agruparse, de acuerdo con sus características en:
         .col-lg-10.mt-5
           ImagenInfografica.color-acento-botones
@@ -49,7 +49,7 @@
           .cajon.color-1.p-4
             p Tenga en cuenta que los indicadores, de acuerdo con lo que esperan medir, deben cumplir con varias etapas, desde el momento en el que son planeados hasta las acciones de mejora propuestas al final, y deben ser aprobados por cada una de las áreas o departamentos de donde sean requeridos.
 
-      .row.justify-content-center.mt-5
+      .row.justify-content-center.mt-3
         p La Figura 1 presenta las etapas de los indicadores empresariales.
         .col-lg-10     
           .titulo-sexto.color-acento-contenido
@@ -73,8 +73,8 @@
             p Específicamente, en el ambiente organizacional, se define la estrategia pedagógica como acciones organizadas e intencionadas, dirigidas a las transformaciones en el comportamiento profesional y humano de los actores de una organización, que propicia el desarrollo de la cultura organizacional.  Como se muestra, es importante que las acciones generen un desarrollo organizacional, pero no solo a nivel profesional, puesto que cada empresa debe saber que su capital humano cuenta con cualidades personales, que también son importantes dentro de su desempeño laboral.        
           p.mt-3 Por este motivo, se puede decir que el programa de inducción es una presentación actualizada de los componentes misionales de la organización, a sus nuevos empleados y resalta la importancia de su labor, sin dejar de lado aspectos integrales del ser humano.
 
-    .row.justify-content-center.mt-5
-      .col-lg-8.mt-3
+    .row.justify-content-center.mt-2
+      .col-lg-8
         AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonA")
           .row(titulo="El aprendizaje por proyectos")
             .col-12.ps-5
@@ -85,13 +85,13 @@
       .col-lg-4
           img(src='@/assets/curso/temas/tema3/t3-5.svg', alt='' data-aos="flip-left")               
 
-    .row.justify-content-center
-      .col-lg-2(data-aos="flip-left").mb-3
+    .row.justify-content-center.mt-3
+      .col-lg-2(data-aos="flip-left").mb-5
         img(src='@/assets/curso/temas/tema3/t3-6.svg', alt='Texto que describa la imagen').animacion-flotante
       .col-lg-10
         p Los programas de inducción dependen de las características de las personas que ingresan, si cuentan con experiencia, algo de experiencia o sin experiencia; por tal motivo, el programa debe ser flexible, para poderse adaptar a las necesidades de la audiencia y a sus puestos de trabajo, los cuales permiten la adaptación e integración del nuevo personal a los lineamientos, principios y cultura organizacional.
 
-    .row.justify-content-center.mt-5
+    .row.justify-content-center.mt-3
       p La Figura 2 presenta las clases de estrategias pedagógicas y sus implicaciones.
       .col-lg-10     
         .titulo-sexto.color-acento-contenido
@@ -105,7 +105,7 @@
         .cajon.color-1.p-4
           p Para alcanzar los objetivos de la inducción, se estructuran unas técnicas que favorezcan el proceso de aprendizaje y desarrollo de las habilidades para el desenvolvimiento de su trabajo.
 
-    .row.justify-content-center.mt-5(data-aos="zoom-in")
+    .row.justify-content-center.mt-3(data-aos="zoom-in")
       p Estas técnicas son:
       TabsC.color-acento-contenido
         .py-4.py-md-4(titulo="El entrenamiento inicial")
@@ -142,13 +142,13 @@
           h4(data-aos="fade-down").mb-0 Metodología del docente
 
     .row.justify-content-center
-      .col-lg-2(data-aos="flip-left").mb-3
+      .col-lg-2(data-aos="flip-left").mb-5
         img(src='@/assets/curso/temas/tema3/t3-11.svg', alt='Texto que describa la imagen').animacion-flotante
       .col-lg-10
         p La persona encargada debe brindar el proceso de aprendizaje de manera dinámica, donde la pedagogía utilizada responda a las necesidades de la población, para que las estrategias didácticas correspondan con la resolución de problemas, análisis de casos y prácticas, entre otros.
 
-    .row.my-5
-      p Existen varias técnicas didácticas útiles para el proceso de enseñanza, a continuación, se nombran algunas:
+    .row.mt-3
+      p.mb-4 Existen varias técnicas didácticas útiles para el proceso de enseñanza, a continuación, se nombran algunas:
       SlyderF(columnas="col-lg-6 col-xl-4")
         .tarjeta.carrusel.p-4
           .row.justify-content-center.mb-3
@@ -270,12 +270,12 @@
 
 
     .row.justify-content-center
-      .col-lg-2(data-aos="flip-left").mb-3
+      .col-lg-2(data-aos="flip-left").mb-5
         img(src='@/assets/curso/temas/tema3/t3-18.svg', alt='').animacion-flotante
       .col-lg-10
         p Estas estrategias didácticas tienen en cuenta el contexto para su implementación a través de procedimientos o serie de pasos definidos con anticipación, que establecen pautas y se emplean para alcanzar un propósito educativo, adaptado a situaciones en las que se aplica la estrategia.
       
-      p.mt-5 A continuación, presentamos la metodología para la aplicación de las estrategias didácticas.
+      p.mt-2 A continuación, presentamos la metodología para la aplicación de las estrategias didácticas.
       figure
         img(data-aos="flip-left" src='@/assets/curso/temas/tema3/t3-19.svg', alt='').mt-5
 
@@ -288,8 +288,8 @@
         .cajon.color-1.p-4
           p También se cuenta con herramientas que pueden ser utilizadas de manera presencial, pruebas escritas, cuestionarios y actividades, audiovisual, películas, videos, documentales, etc.
 
-    .row.justify-content-center.mt-5
-      p.mb-5 Dentro de las clases pedagógicas encontramos los siguientes métodos:
+    .row.justify-content-center.mt-3
+      p.mb-4 Dentro de las clases pedagógicas encontramos los siguientes métodos:
       .col-lg-8
         TabsA.color-acento-contenido
           .tarjeta.colorTab.color-acento-contenido--borde.p-3(style="background-color:#fdf4d1" titulo="Método estudio de casos")

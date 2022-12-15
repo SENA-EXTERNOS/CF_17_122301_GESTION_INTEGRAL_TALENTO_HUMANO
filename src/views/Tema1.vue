@@ -19,9 +19,9 @@
         
           p.mt-3 Dentro de las actividades de inducción es importante ofrecer información relacionada con la organización o empresa, como sistema y presentar aspectos básicos de la misma, como el organigrama, la visión, la misión y los objetivos determinados por la estructura organizacional, lo mismo que las políticas y el compromiso adquirido para con la salud y la seguridad en el trabajo.
         
-        p.mt-5 En la Tabla 1 se presentan las fases, actividades y lo que se busca desarrollar en cada una de ellas.
+        p En la Tabla 1 se presentan las fases, actividades y lo que se busca desarrollar en cada una de ellas.
 
-      .row.justify-content-center.mt-5
+      .row.justify-content-center.mt-2
         .col-lg-10     
           .titulo-sexto.color-acento-contenido
             h5 Tabla 1.
@@ -33,7 +33,7 @@
                 tr
                   th(rowspan="30").text-white.columna1 Fases
                   th(rowspan="21").columna2 Planeación
-                  td(rowspan="6") Estrategias pedagógicas
+                  td.text-bold(rowspan="6") Estrategias pedagógicas
                   td(rowspan="3") Transmisión de la información
                   td Presentación
 
@@ -54,7 +54,7 @@
                   td  Conocimiento
     
                 tr
-                  td(rowspan="8") Temas
+                  td.text-bold(rowspan="8") Temas
                   td(rowspan="5") Inducción a la organización
                   td Historia de la empresa
 
@@ -81,7 +81,7 @@
                   td Equipos necesarios
 
                 tr
-                  td(rowspan="4") Recursos
+                  td.text-bold(rowspan="4") Recursos
                   td Económicos
                   td Costos de inducción     
 
@@ -98,7 +98,7 @@
                   td Personal encargado     
 
                 tr
-                  td(rowspan="3") Alistamiento general  
+                  td.text-bold(rowspan="3") Alistamiento general  
                   td Distribución de responsables
                   td Actividades a cargo   
 
@@ -112,17 +112,17 @@
 
                 tr
                   th.columna3(rowspan="4") Desarrollo
-                  td Inicio
+                  td.text-bold Inicio
                   td Orientación
                   td Explicación sobre cómo se desarrolla la inducción
 
                 tr
-                  td Actividades
+                  td.text-bold Actividades
                   td Aplicación de actividades
                   td Lineamientos para la realización
 
                 tr
-                  td(rowspan="2") Recorrido
+                  td.text-bold(rowspan="2") Recorrido
                   td(rowspan="2") Conocimiento general
                   td Instalaciones
                 tr
@@ -130,7 +130,7 @@
 
                 tr
                   th.columna4(rowspan="5") Seguimiento
-                  td(rowspan="4") Evaluación
+                  td.text-bold(rowspan="4") Evaluación
                   td Habilidades
                   td(rowspan="4") Instrumento de evaluación
 
@@ -142,25 +142,25 @@
                   td Actividades                                 
 
                 tr
-                  td Identificación
+                  td.text-bold Identificación
                   td Alcance  
                   td Aspectos por mejorar
 
 
-      .row.justify-content-center.mt-5
+      .row.justify-content-center.mt-4
         p Después de conocer la estructuración de la inducción y las actividades que la componen, abordaremos la normatividad para poder desarrollar la temática que podemos estudiar, a través del siguiente video.
         .video.mt-3
           iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption VIDEO  
 
       .row.justify-content-center.mt-5
-        .col-lg-2(data-aos="flip-left").mb-3
+        .col-lg-2(data-aos="flip-left").mb-5
           img(src='@/assets/curso/temas/tema1/t1-2.svg', alt='Texto que describa la imagen').animacion-flotante
         .col-lg-10
           p Teniendo en cuenta todos los tipos existentes de normas, también algunas leyes, decretos y demás, necesarios para la protección del empleado en la empresa y el correcto funcionamiento de la misma, ahora hablaremos sobre los colaboradores, sus roles y tipos de trabajo desempeñados.
 
 
-      .row.justify-content-center.mt-5
+      .row.justify-content-center.mt-3
         .col-lg-8.col-xs-6
           .cajon.color-1.p-4
             p Partiendo de la identidad y naturaleza de la empresa, sus objetivos y metas propuestas, se estructuran las tareas específicas dentro del ambiente laboral en pro de mejorar la productividad y el buen desempeño dentro del equipo de trabajo.       
@@ -170,14 +170,14 @@
           figure
             img(src='@/assets/curso/temas/tema1/t1-3.svg', alt='Texto que describa la imagen').mb-3    
 
-      .row.justify-content-center.mt-5
+      .row.justify-content-center.mt-3
         .col-lg-10.col-xs-6
           .cajon.color-2.p-4
             p El individuo que entra a ocupar la vacante, debe convertirse en un asociado importante con el que se cuenta en una empresa; es decir, ser el capital humano apoderado para agilizar procesos y perfeccionar el modelo de negocio de la organización. Es por esta razón que, en los procesos internos y externos de una empresa, el trabajador es uno de los elementos más importantes.
 
-      .row.justify-content-center.mt-5
+      .row.justify-content-center.mt-4
         p Los roles no son estáticos, es decir, pueden variar de acuerdo con la tarea o labor encomendada, y dependiendo de su objetivo, se estructura el rol para cada uno de sus integrantes.
-        .col-lg-2(data-aos="flip-left").mb-3
+        .col-lg-2(data-aos="flip-left").mb-5
           img(src='@/assets/curso/temas/tema1/t1-4.svg', alt='Texto que describa la imagen').animacion-flotante
         .col-lg-10
           p La empresa se encuentra conformada por departamentos o áreas, los cuales tienen funciones y objetivos específicos, requiriendo perfiles profesionales, educativos y aptitudinales que puedan desempeñarse, de manera efectiva, para las necesidades del puesto; los integrantes de un departamento o área están dirigidos por un jefe o director, quien establece los objetivos y asigna las tareas a los trabajadores y equipos. Los trabajos más representativos son:

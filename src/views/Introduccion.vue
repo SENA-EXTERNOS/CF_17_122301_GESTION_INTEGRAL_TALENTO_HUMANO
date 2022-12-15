@@ -9,14 +9,14 @@
             i.fas.fa-info
         h1 Introducción
 
-      .row.justify-content-center.mt-5
-        .col-lg-2(data-aos="flip-left").mb-3
+      .row.justify-content-center
+        .col-lg-2(data-aos="flip-left").mb-5
           img(src='@/assets/curso/temas/intro.svg', alt='Texto que describa la imagen').animacion-flotante
         .col-lg-10
           p Apreciado aprendiz, bienvenido a este componente formativo, el cual le brindará el conocimiento básico requerido sobre la importancia de la persona responsable del proceso de inducción, sus habilidades pedagógicas, estrategias y herramientas didácticas a aplicar, las cuales le permitirán transmitir el conocimiento, por medio del proceso de enseñanza, al personal a entrenar.
-        p.mt-5 En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
+        p.mt-3 En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
 
-        .row.mt-5
+        .row.mt-3
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           figcaption VIDEO
