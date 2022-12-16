@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="190" height="112" viewBox="0 0 190 112">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f7ca2e" stop-opacity="0"/>
+      <stop offset="0.091" stop-color="#f7ca2e" stop-opacity="0.129"/>
+      <stop offset="0.283" stop-color="#f7ca2e" stop-opacity="0.388"/>
+      <stop offset="0.465" stop-color="#f7ca2e" stop-opacity="0.612"/>
+      <stop offset="0.633" stop-color="#f7ca2e" stop-opacity="0.78"/>
+      <stop offset="0.784" stop-color="#f7ca2e" stop-opacity="0.902"/>
+      <stop offset="0.911" stop-color="#f7ca2e" stop-opacity="0.969"/>
+      <stop offset="1" stop-color="#f7ca2e"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b13e8d" stop-opacity="0"/>
+      <stop offset="0.091" stop-color="#b13e8d" stop-opacity="0.129"/>
+      <stop offset="0.283" stop-color="#b13e8d" stop-opacity="0.388"/>
+      <stop offset="0.465" stop-color="#b13e8d" stop-opacity="0.612"/>
+      <stop offset="0.633" stop-color="#b13e8d" stop-opacity="0.78"/>
+      <stop offset="0.784" stop-color="#b13e8d"/>
+      <stop offset="0.911" stop-color="#b13e8d" stop-opacity="0.969"/>
+      <stop offset="1" stop-color="#b13e8d"/>
+    </linearGradient>
+    <filter id="Trazado_195394" x="41" y="4" width="108" height="108" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_136700" data-name="Grupo 136700" transform="translate(-180 -1627)">
+    <g id="Grupo_128321" data-name="Grupo 128321" transform="translate(0 1228)">
+      <rect id="Rectángulo_40586" data-name="Rectángulo 40586" width="190" height="20" transform="translate(180 444)" fill="none"/>
+      <g id="Grupo_108405" data-name="Grupo 108405" transform="translate(209.5 463)">
+        <path id="Rectángulo_5242" data-name="Rectángulo 5242" d="M0,0H12a0,0,0,0,1,0,0V43.333a3,3,0,0,1-3,3H3a3,3,0,0,1-3-3V0A0,0,0,0,1,0,0Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+      </g>
+      <g id="Grupo_108406" data-name="Grupo 108406" transform="translate(340 451) rotate(180)">
+        <path id="Rectángulo_5242-2" data-name="Rectángulo 5242" d="M0,0H12a0,0,0,0,1,0,0V49a3,3,0,0,1-3,3H3a3,3,0,0,1-3-3V0A0,0,0,0,1,0,0Z" transform="translate(0 0)" fill="url(#linear-gradient-2)"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 180, 399)" filter="url(#Trazado_195394)">
+        <path id="Trazado_195394-2" data-name="Trazado 195394" d="M10,0H80A10,10,0,0,1,90,10V90H10A10,10,0,0,1,0,80V10A10,10,0,0,1,10,0Z" transform="translate(50 10)" fill="#f6f6f6"/>
+      </g>
+      <path id="evaluacion" d="M48.753,21.158a1,1,0,0,1,1.419-1.419l1.607,1.607,4.838-4.39a1,1,0,1,1,1.348,1.486l-5.545,5.033a1,1,0,0,1-1.383-.033ZM50.662,3.635a1.254,1.254,0,1,0,1.254,1.254A1.256,1.256,0,0,0,50.662,3.635Zm7.371,23.829a1,1,0,0,0-1.417-.069l-4.838,4.39-1.607-1.607A1,1,0,0,0,48.753,31.6l2.283,2.283a1,1,0,0,0,1.383.033l5.545-5.033a1,1,0,0,0,.069-1.417Zm24.7-4.485-6.811,11.8V60.411A3.8,3.8,0,0,1,72.134,64.2H29.191A3.8,3.8,0,0,1,25.4,60.411V9.1a3.8,3.8,0,0,1,3.792-3.792h9.733V4.628a1,1,0,0,1,1-1h5.395A5.747,5.747,0,0,1,56,3.625H61.4a1,1,0,0,1,1,1v.682h9.733A3.8,3.8,0,0,1,75.926,9.1V18a3.719,3.719,0,0,1,4.517-.629l.937.541a3.712,3.712,0,0,1,1.357,5.065Zm-5.622-3.246L63.875,42.665l1.074.62L79.006,18.936a1.707,1.707,0,0,0-1.892.8ZM63.508,47.786l2.613-1.508-2.613-1.508ZM62.4,7.317V9.19h8.642a1,1,0,0,1,1,1V24.5l1.873-3.244V9.1a1.787,1.787,0,0,0-1.785-1.785H62.4ZM40.93,10.875H60.395V5.631H55.27a1,1,0,0,1-.975-.768,3.738,3.738,0,0,0-7.266,0,1,1,0,0,1-.975.768H40.93Zm-1,2.006a1,1,0,0,1-1-1V11.2H31.284V58.318H70.04V44.97L69,46.779a1,1,0,0,1-.367.367l-5.622,3.246a1,1,0,0,1-1.5-.869V43.032a1,1,0,0,1,.134-.5l8.4-14.556V11.2H62.4v.682a1,1,0,0,1-1,1H39.926Zm33.993,25.37L72.046,41.5V59.321a1,1,0,0,1-1,1H30.281a1,1,0,0,1-1-1V10.193a1,1,0,0,1,1-1h8.642V7.317H29.191A1.787,1.787,0,0,0,27.405,9.1V60.411A1.787,1.787,0,0,0,29.191,62.2H72.134a1.787,1.787,0,0,0,1.785-1.785Zm6.824-18.312L66.686,44.288l1.074.62L81,21.976a1.7,1.7,0,0,0-.255-2.037ZM55.938,37.96a1,1,0,0,0-1.419,0L52.8,39.676,51.089,37.96a1,1,0,0,0-1.419,1.419l1.716,1.716L49.67,42.81a1,1,0,0,0,1.419,1.419L52.8,42.513l1.716,1.716a1,1,0,0,0,1.419-1.419l-1.716-1.715,1.716-1.716a1,1,0,0,0,0-1.419ZM38.021,16.438h5.549a1,1,0,0,1,1,1V22.99a1,1,0,0,1-1,1H38.021a1,1,0,0,1-1-1V17.442A1,1,0,0,1,38.021,16.438Zm1,5.549h3.542V18.445H39.024Zm5.549,5.894V33.43a1,1,0,0,1-1,1H38.021a1,1,0,0,1-1-1V27.881a1,1,0,0,1,1-1h5.549A1,1,0,0,1,44.573,27.881Zm-2.006,1H39.024v3.542h3.542Zm2.006,9.436v5.549a1,1,0,0,1-1,1H38.021a1,1,0,0,1-1-1V38.32a1,1,0,0,1,1-1h5.549A1,1,0,0,1,44.573,38.32Zm-2.006,1H39.024v3.542h3.542Zm2.006,9.436v5.549a1,1,0,0,1-1,1H38.021a1,1,0,0,1-1-1V48.759a1,1,0,0,1,1-1h5.549A1,1,0,0,1,44.573,48.759Zm-2.006,1H39.024V53.3h3.542Zm8.47,5a1,1,0,0,0,1.384.033l5.545-5.033a1,1,0,1,0-1.348-1.486l-4.838,4.39-1.607-1.607a1,1,0,0,0-1.419,1.419Z" transform="translate(223.684 422.065)" fill="#6836bf"/>
+    </g>
+  </g>
+</svg>
