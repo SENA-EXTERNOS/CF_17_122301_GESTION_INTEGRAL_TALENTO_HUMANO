@@ -50,13 +50,14 @@
             p Tenga en cuenta que los indicadores, de acuerdo con lo que esperan medir, deben cumplir con varias etapas, desde el momento en el que son planeados hasta las acciones de mejora propuestas al final, y deben ser aprobados por cada una de las áreas o departamentos de donde sean requeridos.
 
       .row.justify-content-center.mt-3
-        p La Figura 1 presenta las etapas de los indicadores empresariales.
+        p La siguiente figura, presenta las etapas de los indicadores empresariales; analice el esquema con suma atención:
         .col-lg-10     
           .titulo-sexto.color-acento-contenido
-            h5 Figura 1.
-            span Etapas de los indicadores empresariales
+            h5 Figura 1
+            br
+            span.fst-italic Etapas de los indicadores empresariales
           figure
-            img(data-aos="flip-left" src='@/assets/curso/temas/tema3/t3-3.svg', alt='').mt-5
+            img(data-aos="flip-left" src='@/assets/curso/temas/tema3/1.svg', alt='').mt-5
 
     .row.justify-content-start.align-items-center.mb-5.mt-5        
       .col-lg-4
@@ -70,9 +71,9 @@
         .col-lg-8.col-xs-6
           p Las estrategias pedagógicas, corresponden a las actividades que utiliza el docente para enseñar al aprendiz conocimientos y que él los apropie de una forma que puedan ser aplicados en su vida laboral.
           .cajon.color-1.p-4
-            p Específicamente, en el ambiente organizacional, se define la estrategia pedagógica como acciones organizadas e intencionadas, dirigidas a las transformaciones en el comportamiento profesional y humano de los actores de una organización, que propicia el desarrollo de la cultura organizacional.  Como se muestra, es importante que las acciones generen un desarrollo organizacional, pero no solo a nivel profesional, puesto que cada empresa debe saber que su capital humano cuenta con cualidades personales, que también son importantes dentro de su desempeño laboral.        
-          p.mt-3 Por este motivo, se puede decir que el programa de inducción es una presentación actualizada de los componentes misionales de la organización, a sus nuevos empleados y resalta la importancia de su labor, sin dejar de lado aspectos integrales del ser humano.
-
+            p Específicamente, en el ambiente organizacional, se define la estrategia pedagógica como acciones organizadas e intencionadas, dirigidas a las transformaciones en el comportamiento profesional y humano de los actores de una organización, que propician el desarrollo de la cultura organizacional. Es importante que las acciones generen un desarrollo organizacional, pero no solo a nivel profesional, puesto que cada empresa debe saber que su capital humano cuenta con cualidades personales, que también son importantes dentro de su desempeño laboral.     
+          p.mt-3 Por este motivo, se puede decir que el programa de inducción es una presentación actualizada de los componentes misionales de la organización, a sus nuevos empleados. Este programa de inducción resalta la importancia de su labor, sin dejar de lado, aspectos integrales del ser humano.
+    p.mb-5 Algunas estrategias pedagógicas favorables para el desarrollo empresarial, son:
     .row.justify-content-center.mt-2
       .col-lg-8
         AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonA")
@@ -92,13 +93,14 @@
         p Los programas de inducción dependen de las características de las personas que ingresan, si cuentan con experiencia, algo de experiencia o sin experiencia; por tal motivo, el programa debe ser flexible, para poderse adaptar a las necesidades de la audiencia y a sus puestos de trabajo, los cuales permiten la adaptación e integración del nuevo personal a los lineamientos, principios y cultura organizacional.
 
     .row.justify-content-center.mt-3
-      p La Figura 2 presenta las clases de estrategias pedagógicas y sus implicaciones.
+      p La figura que se muestra enseguida, presenta las clases de estrategias pedagógicas y sus implicaciones:
       .col-lg-10     
         .titulo-sexto.color-acento-contenido
-          h5 Figura 2.
-          span Clases de estrategias pedagógicas
+          h5 Figura 2
+          br
+          span.fst-italic Clases de estrategias pedagógicas
         figure
-          img(data-aos="flip-left" src='@/assets/curso/temas/tema3/t3-7.svg', alt='').mt-5
+          img(data-aos="flip-left" src='@/assets/curso/temas/tema3/2.svg', alt='').mt-5
 
     .row.justify-content-center.mt-5
       .col-lg-10.col-xs-6
@@ -275,7 +277,7 @@
       .col-lg-10
         p Estas estrategias didácticas tienen en cuenta el contexto para su implementación a través de procedimientos o serie de pasos definidos con anticipación, que establecen pautas y se emplean para alcanzar un propósito educativo, adaptado a situaciones en las que se aplica la estrategia.
       
-      p.mt-2 A continuación, presentamos la metodología para la aplicación de las estrategias didácticas.
+      p.mt-2 A continuación, se presenta la metodología para la aplicación de las estrategias didácticas:
       figure
         img(data-aos="flip-left" src='@/assets/curso/temas/tema3/t3-19.svg', alt='').mt-5
 
@@ -284,12 +286,12 @@
         figure
           img(src='@/assets/curso/temas/tema3/t3-20.svg', alt='').mb-3    
       .col-lg-8.col-xs-6
-        p Las herramientas y las clases pedagógicas, corresponden a medios, elementos o aspectos, que facilitan la optimización del proceso de enseñanza–aprendizaje. El capacitador, de acuerdo con su pedagogía y estrategia didáctica, selecciona las herramientas que pueden beneficiarlo en el proceso de enseñanza–aprendizaje. En la actualidad, han tomado mucha importancia las herramientas tecnológicas, entre las que se encuentra el Internet, que brinda la posibilidad de cuestionarios, actividades, presentaciones interactivas, ayudas audio-visuales, entre otras.
+        p Las herramientas y las clases de herramientas pedagógicas, corresponden a medios, elementos, o aspectos, que facilitan la optimización del proceso de enseñanza–aprendizaje. El capacitador, de acuerdo con su pedagogía y estrategia didáctica, selecciona las herramientas que pueden beneficiarlo en el proceso de enseñanza–aprendizaje. En la actualidad, han tomado mucha importancia las <b>herramientas tecnológicas</b>, entre las que se encuentra el Internet, que brinda la posibilidad de cuestionarios, actividades, presentaciones interactivas, ayudas audio-visuales, entre otras. 
         .cajon.color-1.p-4
           p También se cuenta con herramientas que pueden ser utilizadas de manera presencial, pruebas escritas, cuestionarios y actividades, audiovisual, películas, videos, documentales, etc.
 
     .row.justify-content-center.mt-3
-      p.mb-4 Dentro de las clases pedagógicas encontramos los siguientes métodos:
+      p.mb-4 Como parte de las clases de herramientas pedagógicas, se pueden mencionar algunos métodos:
       .col-lg-8
         TabsA.color-acento-contenido
           .tarjeta.colorTab.color-acento-contenido--borde.p-3(style="background-color:#fdf4d1" titulo="Método estudio de casos")

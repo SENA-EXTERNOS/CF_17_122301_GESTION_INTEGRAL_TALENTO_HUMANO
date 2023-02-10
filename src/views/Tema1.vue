@@ -19,13 +19,14 @@
         
           p.mt-3 Dentro de las actividades de inducción es importante ofrecer información relacionada con la organización o empresa, como sistema y presentar aspectos básicos de la misma, como el organigrama, la visión, la misión y los objetivos determinados por la estructura organizacional, lo mismo que las políticas y el compromiso adquirido para con la salud y la seguridad en el trabajo.
         
-        p En la Tabla 1 se presentan las fases, actividades y lo que se busca desarrollar en cada una de ellas.
+        p En la siguiente tabla, se presentan las fases, actividades y lo que se busca desarrollar en cada una de ellas:
 
       .row.justify-content-center.mt-2
         .col-lg-10     
           .titulo-sexto.color-acento-contenido
-            h5 Tabla 1.
-            span Planeación de un programa de inducción con sus actividades
+            h5 Tabla 1
+            br
+            span.fst-italic Planeación de un programa de inducción con sus actividades
           
           .tabla-a.color-acento-botones 
             table.text-center
@@ -148,10 +149,10 @@
 
 
       .row.justify-content-center.mt-4
-        p Después de conocer la estructuración de la inducción y las actividades que la componen, abordaremos la normatividad para poder desarrollar la temática que podemos estudiar, a través del siguiente video.
+        p Después de conocer la estructuración de la inducción y las actividades que la componen, abordaremos la normatividad para poder desarrollar la temática que podemos estudiar, a través del siguiente video:
         .video.mt-3
           iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption VIDEO  
+          
 
       .row.justify-content-center.mt-5
         .col-lg-2(data-aos="flip-left").mb-5
@@ -176,11 +177,12 @@
             p El individuo que entra a ocupar la vacante, debe convertirse en un asociado importante con el que se cuenta en una empresa; es decir, ser el capital humano apoderado para agilizar procesos y perfeccionar el modelo de negocio de la organización. Es por esta razón que, en los procesos internos y externos de una empresa, el trabajador es uno de los elementos más importantes.
 
       .row.justify-content-center.mt-4
-        p Los roles no son estáticos, es decir, pueden variar de acuerdo con la tarea o labor encomendada, y dependiendo de su objetivo, se estructura el rol para cada uno de sus integrantes.
+        p Los roles no son estáticos, es decir, pueden variar, de acuerdo con la tarea o labor encomendada y, dependiendo de su objetivo, se estructura el rol para cada uno de sus integrantes.
         .col-lg-2(data-aos="flip-left").mb-5
           img(src='@/assets/curso/temas/tema1/t1-4.svg', alt='Texto que describa la imagen').animacion-flotante
         .col-lg-10
-          p La empresa se encuentra conformada por departamentos o áreas, los cuales tienen funciones y objetivos específicos, requiriendo perfiles profesionales, educativos y aptitudinales que puedan desempeñarse, de manera efectiva, para las necesidades del puesto; los integrantes de un departamento o área están dirigidos por un jefe o director, quien establece los objetivos y asigna las tareas a los trabajadores y equipos. Los trabajos más representativos son:
+          p La empresa se encuentra conformada por departamentos o áreas, los cuales tienen funciones y objetivos específicos, requiriendo perfiles profesionales, educativos y aptitudinales que puedan desempeñarse, de manera efectiva, para las necesidades del puesto; los integrantes de un departamento o área están dirigidos por un jefe o director, quien establece los objetivos y asigna las tareas a los trabajadores y equipos. 
+          p Los trabajos más representativos son:
 
     .row.justify-content-center.mb-3
       .row.justify-content-center
