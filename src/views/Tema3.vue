@@ -279,7 +279,7 @@
       
       p.mt-2 A continuación, se presenta la metodología para la aplicación de las estrategias didácticas:
       figure
-        img(data-aos="flip-left" src='@/assets/curso/temas/tema3/t3-19.svg', alt='').mt-5
+        img(data-aos="flip-left" src='@/assets/curso/temas/tema3/3.svg', alt='').mt-5
 
     .row.justify-content-center.mt-5
       .col-lg-4.justify-content-center(data-aos="flip-up")
