@@ -151,7 +151,7 @@
       .row.justify-content-center.mt-4
         p Después de conocer la estructuración de la inducción y las actividades que la componen, abordaremos la normatividad para poder desarrollar la temática que podemos estudiar, a través del siguiente video:
         .video.mt-3
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/o0yVoypv1hI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           
 
       .row.justify-content-center.mt-5
